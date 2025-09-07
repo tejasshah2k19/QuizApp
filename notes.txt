@@ -1,0 +1,25 @@
+spring app -> computer -> local -> 
+
+	localhost:9999
+	
+	
+www -> internet -> access from anywhere  
+	deploy
+	live 
+		 
+	
+server -> hosting server 	-> cloud 
+aws , azure , render , heroku , digitalocean , lynode 
+
+render --> 
+	code -> render -> start -> 24*7*365 -> access 
+
+code -> db local -> 	
+
+server ->db server -> 
+
+
+
+
+render --> 
+	
