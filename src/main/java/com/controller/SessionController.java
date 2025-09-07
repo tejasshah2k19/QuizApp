@@ -1,5 +1,6 @@
 package com.controller;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -42,7 +43,7 @@ public class SessionController {
 			newUser.setFirstName(requestUser.getFirstName());
 			newUser.setEmail(requestUser.getEmail());
 			newUser.setPassword(requestUser.getPassword());
-
+			newUser.setCreatedAt(LocalDate.now());	
 			UserEntity savedUser = userRepository.save(newUser);
 
 			response.put("status", "success");
